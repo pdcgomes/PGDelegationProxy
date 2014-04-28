@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42EE12C2190EEDC300D5EFB8 /* PGDelegatesContainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE12B7190EEDC300D5EFB8 /* PGDelegatesContainerTests.m */; };
+		42EE12C3190EEDC300D5EFB8 /* PGMockProtocolConformantInvalidObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE12BA190EEDC300D5EFB8 /* PGMockProtocolConformantInvalidObject.m */; };
+		42EE12C4190EEDC300D5EFB8 /* PGMockProtocolConformingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE12BC190EEDC300D5EFB8 /* PGMockProtocolConformingObject.m */; };
+		42EE12C5190EEDC300D5EFB8 /* PGMockProtocolNonConformingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE12BE190EEDC300D5EFB8 /* PGMockProtocolNonConformingObject.m */; };
+		42EE12C6190EEDC300D5EFB8 /* PGMockProtocolPartiallyConformingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE12C0190EEDC300D5EFB8 /* PGMockProtocolPartiallyConformingObject.m */; };
+		42EE12CB190EEDDC00D5EFB8 /* PGDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EE12CA190EEDDC00D5EFB8 /* PGDelegateProxy.m */; };
 		42F1B90D190EA4F500947880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1B90C190EA4F500947880 /* Foundation.framework */; };
 		42F1B90F190EA4F500947880 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1B90E190EA4F500947880 /* CoreGraphics.framework */; };
 		42F1B911190EA4F500947880 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1B910190EA4F500947880 /* UIKit.framework */; };
@@ -20,7 +26,6 @@
 		42F1B92D190EA4F600947880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1B90C190EA4F500947880 /* Foundation.framework */; };
 		42F1B92E190EA4F600947880 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F1B910190EA4F500947880 /* UIKit.framework */; };
 		42F1B936190EA4F600947880 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F1B934190EA4F600947880 /* InfoPlist.strings */; };
-		42F1B938190EA4F600947880 /* PGDelegationProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F1B937190EA4F600947880 /* PGDelegationProxyTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42EE12B7190EEDC300D5EFB8 /* PGDelegatesContainerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PGDelegatesContainerTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42EE12B8190EEDC300D5EFB8 /* PGMockProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PGMockProtocol.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42EE12B9190EEDC300D5EFB8 /* PGMockProtocolConformantInvalidObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PGMockProtocolConformantInvalidObject.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42EE12BA190EEDC300D5EFB8 /* PGMockProtocolConformantInvalidObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PGMockProtocolConformantInvalidObject.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42EE12BB190EEDC300D5EFB8 /* PGMockProtocolConformingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PGMockProtocolConformingObject.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42EE12BC190EEDC300D5EFB8 /* PGMockProtocolConformingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PGMockProtocolConformingObject.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42EE12BD190EEDC300D5EFB8 /* PGMockProtocolNonConformingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PGMockProtocolNonConformingObject.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42EE12BE190EEDC300D5EFB8 /* PGMockProtocolNonConformingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PGMockProtocolNonConformingObject.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42EE12BF190EEDC300D5EFB8 /* PGMockProtocolPartiallyConformingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PGMockProtocolPartiallyConformingObject.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42EE12C0190EEDC300D5EFB8 /* PGMockProtocolPartiallyConformingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PGMockProtocolPartiallyConformingObject.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		42EE12C1190EEDC300D5EFB8 /* PGUnitTestingMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PGUnitTestingMacros.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42EE12C9190EEDDC00D5EFB8 /* PGDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PGDelegateProxy.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		42EE12CA190EEDDC00D5EFB8 /* PGDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PGDelegateProxy.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		42F1B909190EA4F500947880 /* PGDelegationProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGDelegationProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F1B90C190EA4F500947880 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42F1B90E190EA4F500947880 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,7 +70,6 @@
 		42F1B92B190EA4F600947880 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		42F1B933190EA4F600947880 /* PGDelegationProxyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PGDelegationProxyTests-Info.plist"; sourceTree = "<group>"; };
 		42F1B935190EA4F600947880 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		42F1B937190EA4F600947880 /* PGDelegationProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGDelegationProxyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42EE12C7190EEDDC00D5EFB8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				42EE12C9190EEDDC00D5EFB8 /* PGDelegateProxy.h */,
+				42EE12CA190EEDDC00D5EFB8 /* PGDelegateProxy.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		42F1B900190EA4F500947880 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +138,7 @@
 		42F1B912190EA4F500947880 /* PGDelegationProxy */ = {
 			isa = PBXGroup;
 			children = (
+				42EE12C7190EEDDC00D5EFB8 /* Sources */,
 				42F1B91B190EA4F500947880 /* PGAppDelegate.h */,
 				42F1B91C190EA4F500947880 /* PGAppDelegate.m */,
 				42F1B91E190EA4F500947880 /* Main.storyboard */,
@@ -137,8 +164,18 @@
 		42F1B931190EA4F600947880 /* PGDelegationProxyTests */ = {
 			isa = PBXGroup;
 			children = (
-				42F1B937190EA4F600947880 /* PGDelegationProxyTests.m */,
 				42F1B932190EA4F600947880 /* Supporting Files */,
+				42EE12B7190EEDC300D5EFB8 /* PGDelegatesContainerTests.m */,
+				42EE12B9190EEDC300D5EFB8 /* PGMockProtocolConformantInvalidObject.h */,
+				42EE12BA190EEDC300D5EFB8 /* PGMockProtocolConformantInvalidObject.m */,
+				42EE12BB190EEDC300D5EFB8 /* PGMockProtocolConformingObject.h */,
+				42EE12BC190EEDC300D5EFB8 /* PGMockProtocolConformingObject.m */,
+				42EE12BD190EEDC300D5EFB8 /* PGMockProtocolNonConformingObject.h */,
+				42EE12BE190EEDC300D5EFB8 /* PGMockProtocolNonConformingObject.m */,
+				42EE12BF190EEDC300D5EFB8 /* PGMockProtocolPartiallyConformingObject.h */,
+				42EE12C0190EEDC300D5EFB8 /* PGMockProtocolPartiallyConformingObject.m */,
+				42EE12B8190EEDC300D5EFB8 /* PGMockProtocol.h */,
+				42EE12C1190EEDC300D5EFB8 /* PGUnitTestingMacros.h */,
 			);
 			path = PGDelegationProxyTests;
 			sourceTree = "<group>";
@@ -253,6 +290,7 @@
 				42F1B919190EA4F500947880 /* main.m in Sources */,
 				42F1B923190EA4F500947880 /* PGViewController.m in Sources */,
 				42F1B91D190EA4F500947880 /* PGAppDelegate.m in Sources */,
+				42EE12CB190EEDDC00D5EFB8 /* PGDelegateProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42F1B938190EA4F600947880 /* PGDelegationProxyTests.m in Sources */,
+				42EE12C5190EEDC300D5EFB8 /* PGMockProtocolNonConformingObject.m in Sources */,
+				42EE12C2190EEDC300D5EFB8 /* PGDelegatesContainerTests.m in Sources */,
+				42EE12C4190EEDC300D5EFB8 /* PGMockProtocolConformingObject.m in Sources */,
+				42EE12C6190EEDC300D5EFB8 /* PGMockProtocolPartiallyConformingObject.m in Sources */,
+				42EE12C3190EEDC300D5EFB8 /* PGMockProtocolConformantInvalidObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +501,7 @@
 				42F1B93D190EA4F600947880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42F1B93E190EA4F600947880 /* Build configuration list for PBXNativeTarget "PGDelegationProxyTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +510,7 @@
 				42F1B940190EA4F600947880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
