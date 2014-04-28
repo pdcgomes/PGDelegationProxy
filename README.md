@@ -1,7 +1,7 @@
 PGDelegationProxy
 =================
 
-## Motivation (a bit long, sorry)
+## Motivation
 
 What is it?
 
